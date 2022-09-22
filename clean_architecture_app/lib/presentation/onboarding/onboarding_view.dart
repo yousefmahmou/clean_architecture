@@ -1,15 +1,20 @@
 import 'package:flutter/material.dart';
 
-class OnboardingView extends StatefulWidget {
-  const OnboardingView({Key? key}) : super(key: key);
+import '../resources/color_manager.dart';
+
+class OnBoardingView extends StatefulWidget {
+  const OnBoardingView({Key? key}) : super(key: key);
 
   @override
-  State<OnboardingView> createState() => _OnboardingViewState();
+  State<OnBoardingView> createState() => _OnBoardingViewState();
 }
 
-class _OnboardingViewState extends State<OnboardingView> {
+class _OnBoardingViewState extends State<OnBoardingView> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor: ColorManager.grey2,
+      body: const Center(child: Text("Welcome to on boarding")),
+    );
   }
 }
