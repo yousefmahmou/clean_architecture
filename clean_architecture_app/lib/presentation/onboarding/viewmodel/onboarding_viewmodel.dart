@@ -17,7 +17,7 @@ class OnBoardingViewModel extends BaseViewModel
 
   @override
   void start() {
-    // TODO: implement start
+    // TODO:implement start
     // call user API
   }
 
