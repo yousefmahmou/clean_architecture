@@ -23,7 +23,7 @@ class OnBoardingViewModel extends BaseViewModel
 
   @override
   void goNext() {
-    // TODO: implement goNext
+    // TODO:implement goNext
   }
 
   @override
