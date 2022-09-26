@@ -12,7 +12,7 @@ class OnBoardingViewModel extends BaseViewModel
   //OnBoarding ViewModel Inputs
   @override
   void dispose() {
-    // TODO: implement dispose
+    // TODO:implement dispose
   }
 
   @override
