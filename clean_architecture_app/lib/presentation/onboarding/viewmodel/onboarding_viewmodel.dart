@@ -33,7 +33,7 @@ class OnBoardingViewModel extends BaseViewModel
 
   @override
   void onPageChanged(int index) {
-    // TODO: implement onPageChanged
+    // TODO:implement onPageChanged
   }
 
   @override
