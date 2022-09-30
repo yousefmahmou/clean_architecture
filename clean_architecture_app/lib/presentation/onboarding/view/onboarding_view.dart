@@ -74,7 +74,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
               ),
             ),
 
-            // widgets indicator and arrows
+             // widgets indicator and arrows
             _getBottomSheetWidget()
           ],
         ),
