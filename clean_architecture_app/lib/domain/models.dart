@@ -9,5 +9,9 @@ class SliderViewObject {
   SliderObject sliderObject;
   int numOfSlides;
   int currentIndex;
-  SliderViewObject(this.sliderObject, this.numOfSlides, this.currentIndex);
+  SliderViewObject(
+    this.sliderObject,
+    this.numOfSlides,
+    this.currentIndex,
+  );
 }
