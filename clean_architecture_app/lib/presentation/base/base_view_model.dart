@@ -4,7 +4,7 @@ abstract class BaseViewModel {
 }
 
 abstract class BaseViewModelInputs {
-  void start(); //start view model job
+  void start(); //start view model job.
 
   void dispose(); //will be called when view model dies
 }
